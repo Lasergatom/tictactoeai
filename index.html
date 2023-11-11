@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="popup.css" rel="stylesheet">
+        <script src="jquery-3.7.0.min.js"></script>
+        <title>AI tic-tac-toe</title>
+    </head>
+    <body>
+        <div class="blur-bg">
+            <div class="popshadow"></div>
+            <div class="popcontent">
+                <div class="popheader">Player Wins!</div>
+            </div>
+            <div class="reset">Restart</div>
+            <div class="bvtrigger">View Board</div>
+        </div>
+        <div class="turnlabel">Player's (X's) Turn</div>
+        <div class="viewlabel">[Click to Close View]</div>
+        <table>
+            <tr id="row1">
+                <td class="q1" id="s1" row=1 col=1>-</td>
+                <td class="q2" id="s2" row=1 col=2>-</td>
+                <td class="q3" id="s3" row=1 col=3>-</td>
+            </tr>
+            <tr id="row2">
+                <td class="q1" id="s4" row=2 col=1>-</td>
+                <td class="q2" id="s5" row=2 col=2>-</td>
+                <td class="q3" id="s6" row=2 col=3>-</td>
+            </tr>
+            <tr id="row3">
+                <td class="q1" id="s7" row=3 col=1>-</td>
+                <td class="q2" id="s8" row=3 col=2>-</td>
+                <td class="q3" id="s9" row=3 col=3>-</td>
+            </tr>
+        </table>
+        <script src="script2.js"></script>
+    </body>
+</html>
